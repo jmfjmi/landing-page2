@@ -1,20 +1,96 @@
-.pagina{
-border: 1px solid black;
-height: 1024px;
-width:1440px ;
-}
-
-.foto{
- 
-}
-
-.love{
+.pagina {
     border: 1px solid black;
-    height: 360px;
-    width: 432px ;
- 
+    width: 1440px;
+    background-color: #f0f0f0;
 }
 
-.book{
+.flex {
+    display: flex;
+}
 
+.pa {
+    width: 1440px;
+    height: 100px;
+
+}
+
+.hai {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 76.3%;
+    letter-spacing: -0.03em;
+    color: #8EA4F4;
+    width: 720px;
+    height: 100px;
+    margin-left:79px ;
+}
+
+.had {
+    width: 720px;
+    height: 100px;
+}
+
+.had>div {
+    flex-direction: row-reverse;
+}
+
+.pc {
+    width: 1440px;
+    height: 924px;
+}
+
+.lh {
+    height: 924px;
+    width: 234px;
+
+}
+
+.box {
+    height: 924px;
+    width: 1206px;
+}
+
+.love {
+
+    height: 924px;
+    width: 513px;
+}
+
+.foto {
+
+    height: 924px;
+
+}
+
+.vertical {
+    transform: rotate(-90deg);
+    width: 306px;
+}
+
+.tcolores {
+    margin-top: 170px;
+
+}
+
+.lorem {
+    margin-top: -30px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #0A1760;
+}
+
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.book {
+    margin-left: 80px;
+}
+
+.mask {
+    margin-top: 90px;
 }
