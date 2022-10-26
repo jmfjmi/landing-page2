@@ -18,7 +18,7 @@
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    line-height: 76.3%;
+    line-height: 125%;
     letter-spacing: -0.03em;
     color: #8EA4F4;
     width: 720px;
@@ -33,6 +33,24 @@
 
 .had>div {
     flex-direction: row-reverse;
+}
+
+.user{
+    background-color: #8EA4F4;
+    margin-right: 50px; 
+    margin-top: 30px;   
+    border-radius: 40px;
+}
+
+.buscar{
+    margin-right:90px;
+    margin-top: 30px;   
+    border-radius: 17px;
+    border: 1px solid black;
+}
+
+.lupa{
+    margin-top:7px ;
 }
 
 .pc {
@@ -65,7 +83,7 @@
 
 .vertical {
     transform: rotate(-90deg);
-    width: 306px;
+    height: 191px;
 }
 
 .tcolores {
@@ -87,10 +105,16 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.book {
+.libro {
     margin-left: 80px;
+    border: none;
 }
+
 
 .mask {
     margin-top: 90px;
+}
+
+button:hover{
+    cursor: pointer;
 }
